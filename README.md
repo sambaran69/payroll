@@ -79,4 +79,4 @@ The Calculator can be run in the following 2 ways:
 
 ## License
 
-Copyright © 2015 Sambaran Roy
+Copyright © 2016 Sambaran Roy
