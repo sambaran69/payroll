@@ -1,4 +1,5 @@
-## Coding exercise: Employee monthly payslip
+# MYOB Coding exercise
+## Employee monthly payslip
 
 When I input the employee's details: first name, last name, annual salary(positive integer) and super rate(0% - 50% inclusive), payment start date, the program should generate payslip information with name, pay period,  gross income, income tax, net income and super.
 
@@ -45,6 +46,12 @@ As part of your solution:
 - List any assumptions that you have made in order to solve this problem.
 - Provide instruction on how to run the application
 - Provide a test harness to validate your solution.
+
+# Application Details
+## Assumptions made
+- The pay period date range passed is only for display purpose and other that its format `Start Date - End Date` nothing else is verified.
+- The pay period date range is not being parsed for actual date values to calculate the payslips. Even if a different month is mentioned in the pay period `01 March - 31 August` the payslip is being calculated for one month only.
+- One of the reasons why the pay period date range is not parsed is the calculation of the business days available / business days worked logic which requires more clarifications.
 
 # Development Environment
 ### Setup
